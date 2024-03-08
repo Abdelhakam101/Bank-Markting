@@ -14,7 +14,7 @@ add_selectbox = st.sidebar.radio(
 ####################################################
 df=pd.read_csv("Deployment/clean data.csv")
 if add_selectbox =="Info":
-    image = Image.open(os.path.join(os.getcwd(),"increase-deposits.jpg"))
+    image = Image.open(os.path.join(os.getcwd(),"Deployment/increase-deposits.jpg"))
     st.image(image, caption='Bank Marketing') 
     st.title("Bank Marketing Model, By [Abdelhakam Ashraf](https://www.linkedin.com/in/abdelhakam-ashraf-056393258/)")
     st.markdown("--"*50)
