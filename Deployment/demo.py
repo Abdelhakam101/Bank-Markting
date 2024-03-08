@@ -12,7 +12,7 @@ add_selectbox = st.sidebar.radio(
         ("Info", "Analysis", "Prediction")
 )
 ####################################################
-df=pd.read_csv("clean data.csv")
+df=pd.read_csv("./clean data.csv")
 if add_selectbox =="Info":
     image = Image.open(os.path.join(os.getcwd(),"increase-deposits.jpg"))
     st.image(image, caption='Bank Marketing') 
