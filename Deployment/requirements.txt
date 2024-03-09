@@ -7,4 +7,4 @@ seaborn==0.13.2
 streamlit==1.28.0
 category_encoders==2.6.0
 xgboost==2.0.3
-
+imblearn==0.11.0
