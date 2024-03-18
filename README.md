@@ -38,5 +38,8 @@
 
 # In this project i maked model to predict if the client subscribed a term deposit or not after some analysis
 
-## Link Data : 
+### Link Data: 
 https://data.world/data-society/bank-marketing-data
+
+### Streamlit :
+https://bank-markting.streamlit.app/
