@@ -406,7 +406,6 @@ if add_selectbox =="Analysis":
 #########################################################################
 if add_selectbox == "Prediction":
     model = pickle.load(open('Deployment/model.pkl', 'rb'))
-    inputs = pickle.load(open('Deployment/inputs.pkl','rb'))
     #inputs 
     def prediction(age ,job ,marital ,education, housing,
                     loan, contact, month, day_of_week, pdays, previous,
