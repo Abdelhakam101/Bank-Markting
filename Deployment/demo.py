@@ -412,7 +412,12 @@ if add_selectbox == "Prediction":
                     emp_var_rate,cons_price_idx,cons_conf_idx,euribor3m
                     ,nr_employed):
             
-        df= pd.DataFrame(columns=inputs)
+        df = pd.DataFrame(columns=[
+        'age', 'job', 'marital', 'education', 'housing',
+        'loan', 'contact', 'month', 'day_of_week', 'pdays',
+        'previous', 'emp_var_rate', 'cons_price_idx',
+        'cons_conf_idx', 'euribor3m', 'nr_employed'
+    ])
 
         df.at[0, 'age'] = age
         df.at[0, 'job'] = job
